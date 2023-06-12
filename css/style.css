@@ -15,7 +15,7 @@ body {
     word-wrap: break-word;
     font-weight: 400;
     background-color: #fff;
-    color: #7e7e7e
+    color: #57514d
 }
 
 body::-webkit-scrollbar {
@@ -66,29 +66,29 @@ a {
 }
 
 ::-webkit-input-placeholder {
-    color: #7e7e7e
+    color: #57514d
 }
 
 :-moz-placeholder {
-    color: #7e7e7e;
+    color: #57514d;
     opacity: 1
 }
 
 ::-moz-placeholder {
-    color: #7e7e7e;
+    color: #57514d;
     opacity: 1
 }
 
 :-ms-input-placeholder {
-    color: #7e7e7e
+    color: #57514d
 }
 
 ::-ms-input-placeholder {
-    color: #7e7e7e
+    color: #57514d
 }
 
 ::placeholder {
-    color: #7e7e7e
+    color: #57514d
 }
 
 .overlay_image {
@@ -339,11 +339,11 @@ h6 {
 }
 
 .edrea_modalbox .fixed_title span {
-    color: #7e7e7e;
+    color: #57514d;
     font-family: monospace;
     font-size: 14px;
     display: block;
-    border-bottom: 1px solid #bfbfbf
+    border-bottom: 1px solid #534F49
 }
 
 .edrea_modalbox {
@@ -494,7 +494,7 @@ h6 {
     width: 5px;
     height: 5px;
     border-radius: 100%;
-    background-color: #7e7e7e;
+    background-color: #57514d;
     left: 0;
     top: 13px
 }
@@ -533,7 +533,7 @@ h6 {
     text-transform: uppercase;
     min-width: 90px;
     position: relative;
-    color: #7e7e7e;
+    color: #57514d;
     padding-bottom: 11px;
     overflow: hidden
 }
@@ -547,8 +547,8 @@ h6 {
 }
 
 .edrea_prevnext a:hover {
-    color: #dd4242;
-    border-color: #dd4242
+    color: #cd7676;
+    border-color: #cd7676
 }
 
 .edrea_prevnext a:after {
@@ -557,7 +557,7 @@ h6 {
     content: "";
     position: absolute;
     height: 1px;
-    background-color: #7e7e7e;
+    background-color: #57514d;
     transition: all .3s .3s ease
 }
 
@@ -570,7 +570,7 @@ h6 {
     position: absolute;
     height: 1px;
     z-index: 3;
-    background-color: #dd4242;
+    background-color: #cd7676;
     transition: all .3s ease;
     opacity: 0
 }
@@ -674,7 +674,7 @@ h6 {
 
 .edrea_topbar ul li a {
     text-decoration: none;
-    color: #7e7e7e;
+    color: #57514d;
     font-size: 16px;
     font-weight: 500;
     display: block;
@@ -683,7 +683,7 @@ h6 {
 }
 
 .edrea_topbar ul li.button a {
-    border: 2px solid #7e7e7e00;
+    border: 2px solid #57514d00;
     padding: 2px 18px;
     border-radius: 50px;
     color: #0f172a
@@ -691,17 +691,17 @@ h6 {
 
 .edrea_topbar ul li.button a:hover,
 .edrea_topbar ul li.current.button a {
-    border-color: #dd4242;
-    background-color: #dd4242;
+    border-color: #cd7676;
+    background-color: #cd7676;
     color: #fff
 }
 
 .edrea_topbar ul li.current a {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_topbar ul li a:hover {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_topbar .menu {
@@ -712,7 +712,7 @@ h6 {
     position: absolute;
     bottom: 0;
     width: 0;
-    background-color: #dd4242;
+    background-color: #cd7676;
     display: block;
     height: 2px;
     transition: all .5s ease;
@@ -755,7 +755,7 @@ h6 {
 
 .edrea_hero .content_in {
     width: 100%;
-    max-width: 710px;
+    max-width: 100%;
     min-height: 100vh;
     padding: 125px 50px;
     display: flex;
@@ -772,7 +772,7 @@ h6 {
 }
 
 .edrea_hero .title span {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_hero .description {
@@ -796,7 +796,7 @@ h6 {
     position: relative;
     margin-right: 27px;
     border-radius: 50%;
-    background-color: #dd4242;
+    background-color: #cd7676;
     transition: all .6s ease
 }
 
@@ -828,7 +828,7 @@ h6 {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: #bfbfbf;
+    background-color: #57514d;
     height: 1px;
     transition: all .3s .3s ease
 }
@@ -839,7 +839,7 @@ h6 {
     width: 0;
     position: absolute;
     bottom: 0;
-    background-color: #bfbfbf;
+    background-color: #57514d;
     height: 1px;
     transition: all .3s ease
 }
@@ -861,7 +861,7 @@ h6 {
 }
 
 .edrea_video_button .bottom {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_video_button a {
@@ -930,7 +930,7 @@ body.dark .edrea_about {
     font-size: 14px;
     line-height: 21px;
     background-color: rgba(0, 0, 0, 0.03);
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_title.bg_white .sub_text span {
@@ -953,12 +953,12 @@ body.dark .edrea_about {
 }
 
 .edrea_title .sub-title strong {
-    color: #888;
+    color: #57514d;
     font-weight: 500
 }
 
 .edrea_title .title span {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_title .description {
@@ -983,13 +983,13 @@ body.dark .edrea_about {
     text-align: center;
     padding: 12px 30px;
     text-decoration: none;
-    color: #dd4242;
-    border: 2px solid #dd4242;
+    color: #cd7676;
+    border: 2px solid #cd7676;
     border-radius: 40px
 }
 
 .edrea_button a:hover {
-    background-color: #dd4242;
+    background-color: #cd7676;
     color: #fff
 }
 
@@ -1075,7 +1075,7 @@ body.dark .edrea_about {
     width: 15px;
     display: block;
     height: 15px;
-    stroke: #7e7e7e
+    stroke: #57514d
 }
 
 .edrea_service_list .service_item:hover {
@@ -1083,7 +1083,7 @@ body.dark .edrea_about {
 }
 
 .edrea_service_list .service_item:hover .arrow .svg {
-    stroke: #dd4242
+    stroke: #cd7676
 }
 
 .edrea_information {
@@ -1155,7 +1155,7 @@ body.dark .edrea_about {
 
 .edrea_information .info_left h3 .suffix,
 .edrea_information .info_left h3 .prefix {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_information .info_left p {
@@ -1303,7 +1303,7 @@ body.dark .edrea_about {
     font-weight: 500;
     line-height: 27px;
     letter-spacing: 0;
-    color: #dd4242;
+    color: #cd7676;
     margin-bottom: 5px
 }
 
@@ -1316,7 +1316,7 @@ body.dark .edrea_about {
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0;
-    color: #a9afc3
+    color: #57514d
 }
 
 .edrea_portfolio_slider .item .title_holder h3>span {
@@ -1407,7 +1407,7 @@ body.dark .edrea_about {
 .edrea_testi_slider .icon .svg {
     width: 50px;
     height: 50px;
-    color: #dd4242;
+    color: #cd7676;
     margin-left: -24px;
 }
 
@@ -1443,7 +1443,7 @@ body.dark .edrea_about {
     line-height: 27px;
     letter-spacing: 0;
     text-align: left;
-    color: #7e7e7e
+    color: #57514d
 }
 
 .edrea_testi_slider .description {
@@ -1480,7 +1480,7 @@ body.dark .edrea_about {
 
 .edrea_news .edrea_title {
     margin-bottom: 60px;
-    max-width: 670px
+    max-width: 91%;
 }
 
 .edrea_news_slider .owl-carousel {
@@ -1654,12 +1654,12 @@ body.dark .edrea_about {
 }
 
 .edrea_contact .contact_left p a {
-    color: #7e7e7e;
+    color: #57514d;
     text-decoration: none
 }
 
 .edrea_contact .contact_left p a:hover {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_contact .contact_right {
@@ -1689,7 +1689,7 @@ body.dark .edrea_about {
     font-weight: 600;
     line-height: 41px;
     letter-spacing: 0;
-    color: #7e7e7e
+    color: #57514d
 }
 
 .edrea_contact_form textarea,
@@ -1710,7 +1710,7 @@ body.dark .edrea_about {
     outline: 0;
     border: 0;
     background: 0;
-    border-bottom: 1px solid #7e7e7e
+    border-bottom: 1px solid #57514d
 }
 
 .edrea_contact_form textarea:focus,
@@ -1730,7 +1730,7 @@ body.dark .edrea_about {
     padding: 8px 40px;
     text-decoration: none;
     color: #0f172a;
-    border: 2px solid #7e7e7e;
+    border: 2px solid #57514d;
     border-radius: 40px;
     overflow: hidden;
     position: relative;
@@ -1738,8 +1738,8 @@ body.dark .edrea_about {
 }
 
 .edrea_contact_form a:hover {
-    border-color: #dd4242;
-    background-color: #dd4242;
+    border-color: #cd7676;
+    background-color: #cd7676;
     color: #fff
 }
 
@@ -1792,7 +1792,9 @@ body.dark .edrea_about {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .edrea_footer p {
@@ -1806,30 +1808,30 @@ body.dark .edrea_about {
 
 .edrea_footer p a {
     text-decoration: none;
-    color: #7e7e7e
+    color: #57514d
 }
 
 .edrea_footer p a:hover {
-    color: #dd4242
+    color: #cd7676
 }
 
 .edrea_footer ul a {
     display: block;
-    color: #7e7e7e;
+    color: #57514d;
     text-decoration: none
 }
 
 .edrea_footer ul a .svg {
     width: 23px;
     height: 23px;
-    stroke: #7e7e7e;
+    stroke: #57514d;
     display: block;
     fill: none;
     transition: all .3s ease
 }
 
 .edrea_footer ul a:hover .svg {
-    stroke: #dd4242
+    stroke: #cd7676
 }
 
 .edrea_footer ul {
@@ -1964,7 +1966,7 @@ body.dark .edrea_about {
     bottom: 0;
     position: absolute;
     content: "";
-    background-color: #7e7e7e;
+    background-color: #57514d;
     transition: all .3s ease
 }
 
@@ -2031,7 +2033,7 @@ body.dark .edrea_about {
 
 .edrea_intro .edrea_button a {
     color: #fff;
-    background-color: #dd4242
+    background-color: #cd7676
 }
 
 .edrea_intro .edrea_button a:hover {
@@ -2056,7 +2058,7 @@ body.dark .edrea_about {
 }
 
 .edrea_intro .main_title span {
-    color: #dd4242;
+    color: #cd7676;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
@@ -2182,7 +2184,7 @@ body.dark .edrea_about {
 }
 
 .edrea_intro .copyright p a:hover {
-    color: #dd4242
+    color: #cd7676
 }
 
 body.intro #preloader:before,
@@ -2651,7 +2653,7 @@ body.dark .edrea_topbar ul li.button a {
 }
 
 body.dark .edrea_topbar ul li.button a:hover {
-    border-color: #dd4242
+    border-color: #cd7676
 }
 
 /*ï¼šæ­¤ä»£ç åªä½œä¸ºæ¼”ç¤ºç”¨,ä¸æ˜¯æºä»£ç ã€‚æºç åœ°å€å”¯ä¸€å‡ºå¤„: http://www.bootstrapmb.com/item/12909(è¿™ä¸ªå¤‡æ³¨ä»…åœ¨æ¼”ç¤ºé¡µé¢æœ‰ï¼Œæºä»£ç é‡Œæ²¡æœ‰)*/
