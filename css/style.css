@@ -539,11 +539,11 @@ h6 {
 }
 
 .edrea_prevnext .prev a {
-    text-align: left
+    text-align: center
 }
 
 .edrea_prevnext .next a {
-    text-align: right
+    text-align: center
 }
 
 .edrea_prevnext a:hover {
@@ -626,7 +626,7 @@ h6 {
 }
 
 .edrea_topbar.animate .in {
-    background-color: #fff;
+    background-color: #fff0;
     padding: 20px 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05)
 }
@@ -642,7 +642,9 @@ h6 {
     clear: both;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: -1%;
+    margin-bottom: -1%;
 }
 
 .edrea_topbar .logo {
@@ -681,8 +683,8 @@ h6 {
 }
 
 .edrea_topbar ul li.button a {
-    border: 2px solid #7e7e7e;
-    padding: 4px 27px;
+    border: 2px solid #7e7e7e00;
+    padding: 2px 18px;
     border-radius: 50px;
     color: #0f172a
 }
@@ -742,7 +744,7 @@ h6 {
 .edrea_hero .overlay_image {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 75% 100%
+    background-position: 99% 100%
 }
 
 .edrea_hero .content {
@@ -755,16 +757,16 @@ h6 {
     width: 100%;
     max-width: 710px;
     min-height: 100vh;
-    padding: 125px 0;
+    padding: 125px 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: flex-end
 }
 
 .edrea_hero .title {
     margin: 0;
     padding: 0;
-    font-size: 70px;
+    font-size: 67px;
     line-height: 90px;
     margin-bottom: 30px
 }
@@ -938,7 +940,7 @@ body.dark .edrea_about {
 .edrea_title .title {
     margin: 0;
     padding: 0;
-    font-size: 60px;
+    font-size: 49px;
     line-height: 1.25;
     margin-bottom: 23px
 }
@@ -1358,7 +1360,7 @@ body.dark .edrea_about {
     width: 100%;
     position: relative;
     background-color: #fff;
-    padding: 60px 50px 60px 150px;
+    padding: 60px 50px 60px 70px;
     border-radius: 20px 20px 20px 0
 }
 
@@ -1472,7 +1474,7 @@ body.dark .edrea_about {
 }
 
 .edrea_news {
-    padding: 120px 0
+    padding: 0px 0
 }
 
 .edrea_news .edrea_title {
