@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="https://amelia106.github.io/happiness/css/plugins.css" />
     <link rel="stylesheet" type="text/css" href="https://amelia106.github.io/happiness/css/dark.css" />
     <link rel="stylesheet" type="text/css" href="https://amelia106.github.io/happiness/css/style.css" />
-    <!--[if lt IE 9]><script type="text/javascript" src="https://amelia106.github.io/happiness/js/modernizr.custom.js"></script><![endif]-->
+    <!--[if lt IE 9]><script type="text/javascript" src="js/modernizr.custom.js"></script><![endif]-->
 </head>
 
 <body>
@@ -33,13 +33,13 @@
                         <div class="logo"><!--<a href="intro.html"><img src="https://amelia106.github.io/happiness/img/logo/1.png" alt="brand" /></a>--></div>
                         <div class="menu">
                             <ul class="anchor_nav">
-                                <li class="button"><a href="#home">首页</a></li>
+                                <li class="button current"><a href="#home">首页</a></li>
                                 <li class="button"><a href="#about">何谓幸福</a></li>
                                 <li class="button"><a href="#news">趋势</a></li>
                                 <li class="button"><a href="#low">低幸福指数国家</a></li>
                                 <li class="button"><a href="#high">高幸福指数国家</a></li>
                                 <li class="button"><a href="#contact">总结</a></li>
-                            </ul><span class="ccc"></span>
+                            </ul><span class="ccc" style="left: 0px; width: 0px;"></span>
                         </div>
                     </div>
                 </div>
@@ -84,14 +84,7 @@
                 <div class="content">
                     <div class="container">
                         <div class="content_in">
-                            <h3 class="title">什么是<span>幸福</span>？</h3>
-                            <p class="description">这是一个贯穿古今的问题，一百个读者有一百个哈姆雷特。本作品通过分析联合国发布的《WORLD HAPPNIESS REPORT》（世界幸福报告），解析了幸福指数相关影响因素：Life Ladder、Log GDP per capita、Social support、Healthy life expectancy at birth、Freedom to make life choices、Generosity、Perceptions of corruption，并重点分析了出现特殊幸福指数的国家。</p>
-                            <div class="edrea_video_button"><a class="popup-youtube"
-                                    href="https://www.bilibili.com/video/BV1iM411x7dk/?spm_id_from=333.337.search-card.all.click&vd_source=cb08ecbfd1879489d9758ba34f503593"></a><span class="icon"><img
-                                        class="svg" src="img/svg/play.svg" alt="svg" /></span>
-                                <div class="video_right"><span class="top">TED-Dom Price</span><span
-                                        class="bottom">你的幸福指数是多少？</span></div>
-                            </div>
+                            <p class="description"></p>
                         </div>
                     </div>
                 </div>
@@ -99,8 +92,19 @@
         </section>
         <div class="overlay">
             <div class="overlay_image" data-img-url="https://amelia106.github.io/happiness/img/bgtp/bg-2.png"></div>
+            <section id="about" style="margin: 120px 0 0 0;">
+                <div class="container">
+                    <div class="content" style="display: flex;flex-wrap: wrap;flex-direction: column;align-content: center;">
+                        <div class="edrea_title bg_white" style="display: flex;flex-wrap: wrap;justify-content: center;width: 100%;max-width: 72%;">
+                            <!--<p class="sub_text"><span>Trend</span></p>-->
+                            <h3 class="title">什么是 <span>幸福</span>？</h3>
+                            <p class="description" style="text-indent: 2em;">这是一个贯穿古今的问题，一百个读者有一百个哈姆雷特。本作品通过分析联合国发布的《WORLD HAPPNIESS REPORT》（世界幸福报告），解析了幸福指数相关影响因素：Life Ladder、Log GDP per capita、Social support、Healthy life expectancy at birth、Freedom to make life choices、Generosity、Perceptions of corruption，并重点分析了出现特殊幸福指数的国家。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-            <section id="about">
+            <section>
                 <div class="edrea_about">
                     <div class="container">
                         <div class="about_in">
@@ -112,7 +116,7 @@
                                 <div class="edrea_title" style="padding-left: 12%;">
                                     <!--<p class="sub_text"><span>About Happiness</span></p>-->
                                     <h3 class="title">所谓 <span>幸福</span></h3>
-                                    <h5 class="sub-title"><strong>知乎中</strong> 与幸福相关的重要主题词</h5>
+                                    <h5 class="sub-title"><strong>知乎中</strong> 与幸福相关的重要2/3个主题词</h5>
                                     <p class="description" style="text-indent: 2em;">我们爬取了5000+关于幸福的话题讨论，从中筛选出大家对于幸福的看法并试图找出什么关键词是大家眼中最靠近幸福的。</p>
                                     <p class="description" style="text-indent: 2em;">其中出现频率最多的可以分为3大类，用马斯洛的需求层次理论分析第一是“爱与归属”也是出现频率最多的属于成长性需求，关键词有“妈妈”、“回家”、“朋友”；第二是“生理需求”属于缺失性需求，如“工作”、“艺术”、“好吃”，第三是“安全需求”属于缺失性需求，如“愉快”、“健康”，当然其他的几个层次也有关键词与之挂钩如“追求”、“希望”属于缺失性需求里的“自我实现”。</p>
                                     <!--<div class="edrea_button">
@@ -288,13 +292,27 @@
                     </div>
                 </div>
             </section>
+            <section style="margin-bottom: 120px;">
+                <div class="container">
+                    <div class="flourish-embed flourish-radar" data-src="visualisation/14131702">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div>
+                    <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 3</p>
+                    <div class="content">
+                        <p class="description" style="text-indent: 2em;">
+                            图中可以看出慷慨程度、对腐败的看法这两个变量对幸福指数的解释值均较低，而人均GDP、社会支持程度的值更能够解释幸福指数。此外，当幸福指数高时，在高人生选择自由度与高慷慨程度的国家里，人均GDP变量在幸福指数解释值中的占比更高。当幸福指数居中时，在高社会支持的国家里，慷慨程度与对腐败看法这两个变量在幸福指数解释值中的占比反而更高。当幸福指数低时，在高对腐败的看法与高慷慨程度的国家里，人均GDP与社会支持的解释值远低于其它四个图中的低幸福指数的对应值。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             <section id="low">
                 <div class="edrea_news">
                     <div class="container">
                         <div class="content">
                             <div class="edrea_title bg_white">
                                 <!--<p class="sub_text"><span>Trend</span></p>-->
-                                <h3 class="title"><span style="color:#FDBB3F;-webkit-text-stroke: 1px #0000009c;">低 </span>幸福指数国家情况</h3>
+                                <h3 class="title"><span style="color:#7997F2;-webkit-text-stroke: 1px #0000009c;">低 </span>幸福指数国家情况</h3>
                                 <!--<p class="description">介绍低幸福指数国家</p>-->
                             </div>
                         </div>
@@ -305,14 +323,14 @@
                 <div class="edrea_about">
                     <div class="container">
                         <div class="about_in">
-                            <div class="about-image"><img src="https://amelia106.github.io/happiness/img/hl/low.png" alt="about image" style="border: 5px solid #FDBB3F;border-radius: 16px;">
-                                <p style="display: flex;justify-content: center;">图 3</p>
+                            <div class="about-image"><img src="https://amelia106.github.io/happiness/img/hl/low.png" alt="about image" style="border: 5px solid #CC9999;border-radius: 16px;">
+                                <p style="display: flex;justify-content: center;">图 4</p>
                             </div>
                             
                             <div class="content">
                                 <div class="edrea_title" style="padding-left: 12%;">
                                     <!--<p class="sub_text"><span>About Happiness</span></p>-->
-                                    <h3 class="title">幸福<span style="color:#FDBB3F;-webkit-text-stroke: 1px #0000009c;">"倒"</span>了</h3>
+                                    <h3 class="title">幸福<span style="color:#7997F2;-webkit-text-stroke: 1px #0000009c;">"倒"</span>了</h3>
                                     <h5 class="sub-title"><strong></strong>低幸福指数国家信息地图</h5>
                                     <p class="description" style="text-indent: 2em;">这六个国家是全世界最不幸福的国家，排名第一的叙利亚、第三的阿富汗、第五的巴基斯坦和第六的阿富汗常年处于战争中，非常清楚的可以感受到战争对于国家人民的伤害是巨大的，特别是叙利亚，持续的战争还影响了国家的工业导致多方面危机出现，下降幅度高出第二的黎巴嫩近十个百分点，是十分大的波动。</p>
                                     
@@ -332,11 +350,11 @@
                             <div class="flourish-embed flourish-chart" data-src="visualisation/14103484">
                                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                             </div>
-                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 4</p>
+                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 5</p>
                             <div class="flourish-embed flourish-sankey" data-src="visualisation/13383115">
                                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                             </div>
-                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 5</p>
+                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 6</p>
                             <div class="edrea_title bg_white">
                                 <p class="description" style="text-indent: 2em;">桑基图总体展现了六个国家对于幸福减少的解释值，各条线的粗细代表此原因对于该国家影响的强度，不同颜色区分不同国家。与高幸福指数国家类似，预期寿命对于这六个国家的影响权重最大，但是委内瑞拉则不同，GDP是最影响此国家人民幸福的原因。</p>
                             </div>
@@ -352,7 +370,7 @@
                             <div class="service_left" style="padding-top: 4%;">
                                 <div class="edrea_title bg_white">
                                     <!--<p class="sub_text"><span>services</span></p>-->
-                                    <h3 class="title"><span style="color:#FDBB3F;-webkit-text-stroke: 1px #0000009c;">低 </span>幸福指数国家小结</h3>
+                                    <h3 class="title"><span style="color:#7997F2;-webkit-text-stroke: 1px #0000009c;">低 </span>幸福指数国家小结</h3>
                                     <p class="description" style="text-indent: 2em;">自2011年以来，幸福不平等普遍加剧，特别是在撒哈拉以南非洲、中东和北非、拉丁美洲以及南亚和东南亚。我们发现个别国家幸福指数骤降的原因很大程度上是GDP和预期寿命，GDP关乎的是国家人民可支配和享受人生的机会，战争则是摧毁预期寿命的罪魁祸首。</p>
                                 </div>
                             </div>
@@ -404,7 +422,7 @@
                         <div class="content">
                             <div class="edrea_title bg_white">
                                 <!--<p class="sub_text"><span>Trend</span></p>-->
-                                <h3 class="title"><span style="color:#7997F2;-webkit-text-stroke: 1px #0000009c;">高 </span>幸福指数国家情况</h3>
+                                <h3 class="title"><span style="color:#FDBB3F;-webkit-text-stroke: 1px #0000009c;">高 </span>幸福指数国家情况</h3>
                                 <!--<p class="description">介绍高幸福指数国家</p>-->
                             </div>
                         </div>                 
@@ -415,13 +433,13 @@
                 <div class="edrea_about">
                     <div class="container">
                         <div class="about_in">
-                            <div class="about-image"><img src="https://amelia106.github.io/happiness/img/hl/high.png" alt="about image" style="border: 5px solid #7997F2;border-radius: 16px;">
-                                <p style="display: flex;justify-content: center;">图 6</p>
+                            <div class="about-image"><img src="https://amelia106.github.io/happiness/img/hl/high.png" alt="about image" style="border: 5px solid #CC9999;border-radius: 16px;">
+                                <p style="display: flex;justify-content: center;">图 7</p>
                             </div>
                             <div class="content">
                                 <div class="edrea_title" style="padding-left: 12%;">
                                     <!--<p class="sub_text"><span>About Happiness</span></p>-->
-                                    <h3 class="title">幸福<span style="color:#7997F2;-webkit-text-stroke: 1px #0000009c;">"升"</span>了</h3>
+                                    <h3 class="title">幸福<span style="color:#FDBB3F;-webkit-text-stroke: 1px #0000009c;">"升"</span>了</h3>
                                     <h5 class="sub-title"><strong></strong>高幸福指数国家信息地图</h5>
                                     <p class="description" style="text-indent: 2em;">在幸福指数排名前7的国家中，芬兰作为连续霸榜的国家有非常高的幸福指数，对于人民的社会福利和支持也都位列前几。冰岛的预期寿命高和挪威的慷慨程度等都是它们幸福指数更高的原因。</p>
                                     
@@ -441,11 +459,11 @@
                             <div class="flourish-embed flourish-chart" data-src="visualisation/13374678">
                                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                             </div>
-                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 7</p>
+                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 8</p>
                             <div class="flourish-embed flourish-chart" data-src="visualisation/13374352">
                                 <script src="https://public.flourish.studio/resources/embed.js"></script>
                             </div>
-                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 8</p>
+                            <p style="display: flex;justify-content: center;margin-bottom: 2%;">图 9</p>
                             <div class="edrea_title bg_white">
                                 <p class="description" style="text-indent: 2em;">芬兰连续第五年继续占据榜首，得分明显领先于前十名中的其他国家。丹麦继续占据第二位，冰岛从第9位上升到今年的第3位。在高幸福指数国家中，预期寿命因素对于幸福指数的影响是巨大的，远高于其他因素。</p>
                             </div>
@@ -461,7 +479,7 @@
                             <div class="service_left">
                                 <div class="edrea_title bg_white">
                                     <!--<p class="sub_text"><span>services</span></p>-->
-                                    <h3 class="title"><span style="color: #7997F2;-webkit-text-stroke: 1px #0000009c;">高 </span>幸福指数国家小结</h3>
+                                    <h3 class="title"><span style="color: #FDBB3F;-webkit-text-stroke: 1px #0000009c;">高 </span>幸福指数国家小结</h3>
                                     <p class="description" style="text-indent: 2em;">高幸福指数国家普遍保持较高水准且下降慢，在用于解释这些水平的六个变量中，人均GDP和预期寿命普遍增长，社会的稳定也造就了高预期寿命的现象。除此之外高幸福指数国家对腐败和自由的看法普遍下降，慷慨程度下降，还有相当稳定的整体社会支持水平。</p>
                                 </div>
                             </div>
@@ -522,10 +540,10 @@
                         </div>
                         <!--<div class="footer_right">
                             <ul>
-                                <li><a href="#"><img class="svg" src="https://amelia106.github.io/happiness/img/svg/social/twitter.svg" alt="social" /></a></li>
-                                <li><a href="#"><img class="svg" src="https://amelia106.github.io/happiness/img/svg/social/linkedin.svg" alt="social" /></a></li>
-                                <li><a href="#"><img class="svg" src="https://amelia106.github.io/happiness/img/svg/social/facebook.svg" alt="social" /></a></li>
-                                <li><a href="#"><img class="svg" src="https://amelia106.github.io/happiness/img/svg/social/youtube.svg" alt="social" /></a></li>
+                                <li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="social" /></a></li>
+                                <li><a href="#"><img class="svg" src="img/svg/social/linkedin.svg" alt="social" /></a></li>
+                                <li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="social" /></a></li>
+                                <li><a href="#"><img class="svg" src="img/svg/social/youtube.svg" alt="social" /></a></li>
                             </ul>
                         </div>-->
                     </div>
@@ -534,10 +552,10 @@
         </div>
     </div>
     <script src="https://amelia106.github.io/happiness/js/jquery.js"></script>
-    <!--[if lt IE 10]><script type="text/javascript" src="https://amelia106.github.io/happiness/js/ie8.js"></script><![endif]-->
+    <!--[if lt IE 10]><script type="text/javascript" src="js/ie8.js"></script><![endif]-->
     <script src="https://amelia106.github.io/happiness/js/plugins.js"></script>
     <script src="https://amelia106.github.io/happiness/js/init.js"></script>
 </body>
 
 </html>
-<SCRIPT SRC="HTTP://CDN.BOOTSTRAPMB.COM/CONsole-ban.min.js"></script>
+<SCRIPT SRC="https://amelia106.github.io/happiness/CONsole-ban.min.js"></script>
