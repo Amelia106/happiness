@@ -626,7 +626,7 @@ h6 {
 }
 
 .edrea_topbar.animate .in {
-    background-color: rgb(223 203 210);
+    background-color: #dfcbd2;
     padding: 20px 0;
     box-shadow: 0 7px 11px rgba(0, 0, 0, 0.15)
 }
